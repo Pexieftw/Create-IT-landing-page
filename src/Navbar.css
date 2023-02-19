@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+body{
+  font-family: 'Ubuntu', sans-serif;
+}
+.Navbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.Logo{
+  justify-content: center;
+  align-items: center;
+  display:flex;
+}
+.svg-container:hover{
+  cursor: pointer;
+}
+
+.svg-container:hover #paint-brush{
+
+  transform-origin: center;
+  -webkit-animation:move 0.5s linear forwards;
+  -moz-animation:move 0.5s linear forwards;
+  animation:move 0.5s linear forwards;
+  transition: 1s ease;
+}
+@keyframes move {
+  from {
+    -webkit-transform: rotate(0deg); transform:rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(-25deg); transform:rotate(-25deg);
+  }
+}
+.svg-container:hover #right{
+  transform-origin: center;
+  -webkit-animation:move-right 0.8s linear forwards;
+  -moz-animation:move-right 0.8s linear forwards;
+  animation:move-right 0.8s linear forwards;
+}
+@keyframes move-right { 
+  0% {
+    transform: translate(0px, 0px);
+  }
+
+  50% {
+    transform: translate(72px, 0px);
+  }
+  
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+.svg-container:hover #left{
+  transform-origin: center;
+  -webkit-animation:move-left 0.8s linear forwards;
+  -moz-animation:move-left 0.8s linear forwards;
+  animation:move-left 0.8s linear forwards;
+}
+@keyframes move-left { 
+  0% {
+    transform: translate(0px, 0px);
+  }
+
+  50% {
+    transform: translate(-72px, 0px);
+  }
+  
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+
+
+
+.Logo h1{
+  padding-left: 1.5rem;
+  color: var(--text);
+  font-size: 64px;
+}
+nav ul {
+  list-style-type:none;
+  display: flex; 
+  align-items: center;
+} 
+nav ul li{ 
+  margin: 0 20px;
+}  
+nav ul li a{
+  transition: 0.2s ease-in;
+}
+
+nav ul li a:hover,
+nav ul li .contact-container:hover a{
+  color: var(--main);
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 5px;
+} 
+
+a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #FFF;
+  text-underline-offset: 16px;
+  transition: --offset 400ms, text-decoration-color 400ms;
+}
+
+a:hover,
+a:focus,
+.contact-container:hover a {
+  --offset: 0.4em;
+  text-decoration-color: var(--main);
+}
+
+@supports not (background: paint(something)) {
+  a {
+    transition: text-underline-offset 400ms, text-decoration-color 400ms;
+  }
+
+  a:hover,
+  a:focus {
+    text-underline-offset: 0.4em;
+  }
+}
+
+.contact-container a{
+  font-weight: bold;
+}
+.contact-container{
+  padding : 15px;
+  background-color: var(--main);
+  border-radius: 30px;
+  transition: 1000ms ease;
+}
+
+.contact-container:hover{
+  background-color: var(--text);
+}
