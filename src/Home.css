@@ -1,0 +1,95 @@
+.Home{
+    margin: 4rem 0;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+    align-items: center;
+}
+
+.Home h1{
+    font-size: 80px;
+    font-weight: bold;
+    color: var(--main);
+    margin: 0;
+}
+
+.Home h2{
+    font-size: 60px;
+    font-weight: bold;
+    color: var(--text);
+    margin: 0
+}
+.Home p{
+    font-size: 28px;
+    color: var(--text);
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+.Home button{
+    border: none;
+    width: 15rem;
+    height: 5rem; 
+    border-radius: 50px;
+    margin-right: 1rem;
+    font-size: 34px;
+    font-weight: 600;
+}
+#join{
+    background-color: var(--main);
+    color: var(--text);
+}
+#join:hover{
+    background-color: var(--text);
+    color:var(--main);
+    transition: 500ms ease;
+}
+#learn-more{
+    color: var(--bg);
+    border: 4px dashed var(--main);
+}
+#learn-more:hover{
+    color: var(--text);
+    background-color: var(--bg);
+    border: 4px dashed var(--main);
+    transition: 500ms ease;
+}
+.Home .image-container{
+    position: relative;
+} 
+.Home .image-container img{  
+    position: absolute;
+    top: -150px;
+    right: 0px;
+    margin-left: auto;
+    height: 280px;
+    transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+}
+
+.Home .image-container #img1{  
+    height: 300px;  
+}
+.Home .image-container #img2{  
+    height: 300px;  
+    animation-delay: 1s;
+}
+.Home .image-container #img3{
+    animation-delay: 0.5s;
+}
+@keyframes float {
+	0% {
+		transform: translatey(1px);
+	}
+	25% {
+		transform: translatey(-50px) translatex(-20px)  rotate(5deg);
+	}
+    50% {
+        transform: translatey(0px) translatex(-40px)  rotate(5deg);
+    }
+    75% {
+		transform: translatey(50px) translatex(-20px) rotate(-5deg);
+    }
+	100% {
+		transform: translatey(0px);
+	}
+}

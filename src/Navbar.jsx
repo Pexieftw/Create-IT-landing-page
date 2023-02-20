@@ -6,7 +6,7 @@ function Navbar() {
 			<div className="Logo">  
         <div className="svg-container">
           <a href="https://drive.google.com/drive/u/1/folders/1XCNN7DlWEwk0J2Njc-tHus4gTVAI47bb" target="_blank">
-            <svg width="200" height="200" viewBox="0 0 1000 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="100" height="100" viewBox="0 0 1000 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g id= "create-it-logo">
                 <g id= "paint-brush">
                   <path d="M518.396 332.451L569.776 333.146C646.232 312.973 655.232 190.079 543.001 125.468C537.029 122.031 529.898 127.037 530.824 133.868C532.792 148.348 529.995 170.434 506.682 195.373C459.766 245.422 455.952 315.484 518.4 332.453L518.396 332.451Z" fill="white"/>
@@ -29,6 +29,7 @@ function Navbar() {
       <nav class="openMenu">
         <ul>
           <li><a href="#">Home</a></li>
+          <li><a href="#">Categories</a></li>
           <li><a href="#">Goals</a></li>
           <li><a href="#">Sponsors</a></li>
           <li><div className="contact-container"><a href="#">Contact Us</a></div></li>
