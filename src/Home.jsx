@@ -8,7 +8,7 @@ function image_gen(index){
 
 function Home() {
   return (
-    <div className="Home">
+    <div id="Home" className="Home">
       <div className="Info">
         <div className="card">
           <h2>Welcome to</h2>

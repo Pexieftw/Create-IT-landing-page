@@ -1,0 +1,55 @@
+.Categories h1{
+    font-size: 80px;
+    font-weight: bold;
+    color: var(--main);
+    margin: 0;
+}
+
+.category-container{
+    margin: 3rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+}
+.category{
+    margin: 2rem 0;
+}
+.outside{
+    position: relative;
+    margin: 0 8rem 0 4rem;
+    background-color: var(--bg);
+    border: 5px solid var(--secondary);
+    border-radius: 50px;
+    padding: 1rem;
+}
+.outside img{
+    top: -60px;
+    left: -60px;
+    position: absolute;
+    height: 120px;
+}
+.inside{
+    background-color: var(--main);
+    border-radius: 50px;
+    height: 100%;
+    text-align: center;
+}
+.inside h3{
+    font-size: 36px;
+    color: var(--bg);
+    padding: 2rem;
+    margin: 0;
+    white-space: normal;
+}
+
+.inside p{
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--bg);
+    padding: 0 2rem 2rem 2rem;
+    margin: 0;
+    white-space: normal;
+}

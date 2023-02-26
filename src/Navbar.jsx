@@ -28,10 +28,10 @@ function Navbar() {
       </div>
       <nav class="openMenu">
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Categories</a></li>
-          <li><a href="#">Goals</a></li>
-          <li><a href="#">Sponsors</a></li>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#Categories">Categories</a></li>
+          <li><a href="#Goals">Goals</a></li>
+          <li><a href="#Sponsors">Sponsors</a></li>
           <li><div className="contact-container"><a href="#">Contact Us</a></div></li>
         </ul> 
       </nav> 

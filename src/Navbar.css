@@ -110,7 +110,6 @@ a {
 }
 
 a:hover,
-a:focus,
 .contact-container:hover a {
   --offset: 0.4em;
   text-decoration-color: var(--main);
@@ -121,8 +120,7 @@ a:focus,
     transition: text-underline-offset 400ms, text-decoration-color 400ms;
   }
 
-  a:hover,
-  a:focus {
+  a:hover{
     text-underline-offset: 0.4em;
   }
 }

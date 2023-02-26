@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import './App.css'
 import Navbar from './Navbar'
 import Home from './Home'
+import Categories from './Categories'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -26,6 +27,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Home />
+      <Categories />
     </div>
   )
 }
