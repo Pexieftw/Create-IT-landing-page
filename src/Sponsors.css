@@ -1,0 +1,22 @@
+.logos-container{
+    display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logos-container .logo1,
+.logos-container .logo3,
+.logos-container .logo4{ 
+    height: 80px;
+}
+.logos-container .logo5{ 
+    height: 100px;
+}
+.logos-container .logo2{ 
+    height: 120px;
+}
+.Sponsors h1{
+    font-size: 80px;
+    font-weight: bold;
+    color: var(--main);
+    margin: 4rem 0;
+}

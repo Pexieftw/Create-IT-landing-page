@@ -1,11 +1,12 @@
-import { useState, useEffect } from 'react'
+import { useEffect } from 'react'
 import './App.css'
 import Navbar from './Navbar'
 import Home from './Home'
 import Categories from './Categories'
+import Goals from './Goals'
+import Sponsors from './Sponsors'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   function handler(e){
     e.preventDefault();
@@ -28,6 +29,8 @@ function App() {
       <Navbar />
       <Home />
       <Categories />
+      <Goals />
+      <Sponsors />
     </div>
   )
 }
