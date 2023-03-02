@@ -32,7 +32,7 @@ function Navbar() {
           <li><a href="#Categories">Categories</a></li>
           <li><a href="#Goals">Goals</a></li>
           <li><a href="#Sponsors">Sponsors</a></li>
-          <li><div className="contact-container"><a href="#">Contact Us</a></div></li>
+          <li><div className="contact-container"><a href="#Contact">Contact Us</a></div></li>
         </ul> 
       </nav> 
     </div>

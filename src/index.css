@@ -10,6 +10,7 @@
   --main: #0188C2;
   --secondary:#FFC11D;
   --text: #FFFFFF;
+  --darkmain: #15468E;
 }
 html {
   font-family: sans-serif; /* 1 */

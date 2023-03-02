@@ -5,6 +5,7 @@ import Home from './Home'
 import Categories from './Categories'
 import Goals from './Goals'
 import Sponsors from './Sponsors'
+import Contact from './Contact'
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
       <Categories />
       <Goals />
       <Sponsors />
+      <Contact />
     </div>
   )
 }
