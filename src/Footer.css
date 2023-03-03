@@ -1,0 +1,44 @@
+.Footer{
+    margin-bottom: 2rem;
+}
+.Footer hr{
+    height: 10px;
+    border: none;
+    border-radius: 50px;
+    background-color: var(--main);
+    margin-bottom: 0.5rem;
+}
+.footer-container{
+    display:flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.Footer h3{
+    font-size: 50px;
+    font-weight: bold;
+    color: var(--main)
+}
+.media {
+    align-items: center;
+}
+.MC-CIT-Logo{
+    margin-top: 4rem;
+}
+.footer-logos{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+    place-items: center;
+}
+.Footer ul{
+    padding: 0;
+}
+.Footer li{
+    color: var(--text);
+    font-size: 25px;
+    list-style-type: none;
+    line-height: 150%;
+}

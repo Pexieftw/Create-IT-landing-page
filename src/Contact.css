@@ -31,6 +31,7 @@ form{
     display: inline-block;
 }
 input[type="text"] {
+    display:inline-block;
     background-color: var(--bg);
     border-radius: 50px;
     font-size: 1.8rem;
@@ -42,10 +43,15 @@ input[type="submit"] {
     font-weight: bold;
     background-color: var(--main);
     border-radius: 45px;
-    padding: 20px;
     font-size: 1.8rem;
     border: none;
     color: var(--text);
+    transition: 500ms ease-in-out;
+}
+input[type="submit"]:hover {
+    transition: 500ms ease-in-out;
+    background-color: var(--text);
+    color: var(--main);
 }
 
 input[type="text"]:focus,

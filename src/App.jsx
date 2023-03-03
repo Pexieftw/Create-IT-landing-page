@@ -6,6 +6,7 @@ import Categories from './Categories'
 import Goals from './Goals'
 import Sponsors from './Sponsors'
 import Contact from './Contact'
+import Footer from './Footer'
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
       <Goals />
       <Sponsors />
       <Contact />
+      <Footer />
     </div>
   )
 }
